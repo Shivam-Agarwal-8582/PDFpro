@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+.npm/
+
+# Build artifacts
+dist/
+build/
+
+# Uploads & Outputs
+backend/uploads/*
+backend/outputs/*
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
